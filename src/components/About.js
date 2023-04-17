@@ -26,7 +26,7 @@ const About = () => {
           <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
             <div className="relative">
               <dt>
-                <div data-aos="fade-left"  className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                <div data-aos="fade"  className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                   <svg
                     className="h-6 w-6"
                     xmlns="http://www.w3.org/2000/svg"
@@ -43,11 +43,11 @@ const About = () => {
                     />
                   </svg>
                 </div>
-                <p data-aos="fade-left" data-aos-delay="200"  className="ml-16 text-lg leading-6 font-medium text-gray-900">
+                <p data-aos="fade" data-aos-delay="200"  className="ml-16 text-lg leading-6 font-medium text-gray-900">
                   Personal Information
                 </p>
               </dt>
-              <dd data-aos="fade-left" data-aos-delay="400" className="mt-2 ml-16 text-base text-gray-500">
+              <dd data-aos="fade" data-aos-delay="400" className="mt-2 ml-16 text-base text-gray-500">
               I'm a full stack developer with a passion for creating elegant and efficient solutions. 
               I have experience with a variety of technologies and enjoy taking on new challenges.  
               I am committed to continuous 
@@ -58,7 +58,7 @@ const About = () => {
 
             <div className="relative">
               <dt>
-                <div data-aos="fade-left" data-aos-delay="400" className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                <div data-aos="fade" data-aos-delay="400" className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                   <svg
                     className="h-6 w-6"
                     xmlns="http://www.w3.org/2000/svg"
@@ -75,11 +75,11 @@ const About = () => {
                     />
                   </svg>
                 </div>
-                <p data-aos="fade-left" data-aos-delay="600" className="ml-16 text-lg leading-6 font-medium text-gray-900">
+                <p data-aos="fade" data-aos-delay="600" className="ml-16 text-lg leading-6 font-medium text-gray-900">
                   Hobbies
                 </p>
               </dt>
-              <dd data-aos="fade-left" data-aos-delay="800" className="mt-2 ml-16 text-base text-gray-500">
+              <dd data-aos="fade" data-aos-delay="800" className="mt-2 ml-16 text-base text-gray-500">
                 In my free time, I enjoy learning new languages and exploring the world through communication. I also love experimenting with electronics prototyping, which allows me to bring my ideas to life and create something tangible. Both hobbies allow me to challenge myself, learn new skills, and stay curious about the world around me.
               </dd>
             </div>

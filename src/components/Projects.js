@@ -3,7 +3,10 @@ import JSIcon from "../assets/js.svg"
 import CSSIcon from "../assets/css3.svg"
 import HTMLIcon from "../assets/html5.svg"
 import ReactIcon from "../assets/reactjs.svg"
+import NodeIcon from "../assets/nodejs.svg"
+import FirebaseIcon from "../assets/firebase.png"
 import TailwindIcon from "../assets/tailwind.png"
+import ShopifyIcon from "../assets/shopify.png"
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -41,10 +44,11 @@ const Projects = () => {
               <p>
                 I reinvented Pangea's front end design, giving them an interactive, responsive, and modern UI.
               </p>
-              <p className='pt-2'>Technology Stack <p>(Implemented on Existing Shopify Store):</p></p>
+              <p className='pt-2'>Technology Stack:</p>
               <div className='flex '>
               <img className="w-1/5" src={JSIcon} alt="JavaScript" />
               <img className="w-1/5" src={CSSIcon} alt="CSS3" />
+              <img className="w-1/5" src={ShopifyIcon} alt="Shopify" />
               <img className="w-1/5" src={HTMLIcon} alt="HTML5" />
               </div >
               </div>
@@ -62,17 +66,17 @@ const Projects = () => {
           <div data-aos="fade-up" data-aos-delay="800" className="bg-white shadow overflow-hidden sm:rounded-lg">
             <div className="px-4 py-5 sm:px-6">
               <h3 className="text-lg leading-6 font-medium text-gray-900">
-                Pangea Movement.
+                Anime Type.
               </h3>
               <div className="mt-1 max-w-2xl text-sm text-gray-500">
               <p>
-                I reinvented Pangea's front end design, giving them an interactive, responsive, and modern UI.
+                This one is a fun side project of mine. Combining two things I enjoy; anime and typing.
               </p>
               <p className='pt-2'>Technology Stack:</p>
               <div className='flex '>
-              <img className="w-1/5" src={JSIcon} alt="JavaScript" />
-              <img className="w-1/5" src={CSSIcon} alt="CSS3" />
-              <img className="w-1/5" src={HTMLIcon} alt="HTML5" />
+              <img className="w-1/5" src={ReactIcon} alt="JavaScript" />
+              <img className="w-1/5" src={FirebaseIcon} alt="CSS3" />
+              <img className="w-1/5" src={NodeIcon} alt="HTML5" />
               </div >
               </div>
             </div>
@@ -104,7 +108,8 @@ const Projects = () => {
             </div>
             <div className="border-t border-gray-200 px-4 py-4 sm:px-6">
               <a
-                href="https://www.pangeamovement.com"
+                target="_blank"
+                href="https://github.com/InsideUrBox/portfolio/tree/master"
                 className="text-base font-medium text-indigo-600 hover:text-indigo-500"
               >
                 View project<span aria-hidden="true"> &rarr;</span>
