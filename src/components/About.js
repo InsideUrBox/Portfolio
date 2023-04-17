@@ -87,7 +87,7 @@ const About = () => {
     </div>
     </div>
     <div className='mt-6 text-gray-900 text-center'>
-        <p className=''>If you wanna find out more, check out my <a className='underline' target="_blank" href={resumePDF}>resume!</a></p>
+        <p className='text-lg'>If you wanna find out more, check out my <a className='underline' target="_blank" href={resumePDF}>resume!</a></p>
     </div>
     </section>
   );

@@ -82,7 +82,7 @@ const Projects = () => {
             </div>
             <div className="border-t border-gray-200 px-4 py-4 sm:px-6">
               <a
-                href="https://www.pangeamovement.com"
+                href="https://insideurbox.github.io/animetype/"
                 className="text-base font-medium text-indigo-600 hover:text-indigo-500"
               >
                 View project<span aria-hidden="true"> &rarr;</span>

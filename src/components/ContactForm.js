@@ -40,9 +40,10 @@ const ContactForm = () => {
             Get in touch
           </p>
           <p data-aos="fade" className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non
-            turpis euismod, convallis massa at, eleifend mauris. Aliquam vel
-            justo vel est placerat maximus.
+          Get in touch using the form below. Whether you have a question, feedback, or a 
+          business inquiry, I'd love to hear from you.
+          Please fill out the form with your name, email address, and a brief message, 
+          and I'll get back to you as soon as possible. Thank you for your interest in my website!
           </p>
         </div>
         <form onSubmit={handleSubmit} className="mt-10">
